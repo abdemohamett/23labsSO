@@ -147,7 +147,7 @@ export default function AqeelPolicyPage() {
               <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/5 flex flex-col gap-2">
                 <UserCheck className="w-5 h-5 text-emerald-400" />
                 <h4 className="text-sm font-semibold text-white">Full User Control</h4>
-                <p className="text-xs text-zinc-400">Delete your account and all associated cloud data at any time with one click.</p>
+                <p className="text-xs text-zinc-400">Delete your account and ALL associated cloud data at any time with one click.</p>
               </div>
             </div>
 
