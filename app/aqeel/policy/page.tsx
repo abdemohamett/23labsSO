@@ -164,7 +164,7 @@ export default function AqeelPolicyPage() {
                 <li><strong className="text-zinc-200">Account Credentials:</strong> Email address, display name, and authentication tokens provided when registering via email or Google Sign-In (OAuth).</li>
                 <li><strong className="text-zinc-200">Quran Memorization Progress:</strong> Surah and Ayah memorization status, review frequency, spaced repetition recall scores, study streaks, and revision timestamps.</li>
                 <li><strong className="text-zinc-200">Device & Diagnostic Information:</strong> Operating system, device model, app version, IP address, and crash reports to maintain app stability.</li>
-                <li><strong className="text-zinc-200">Payment & Subscription Data:</strong> Subscription status and trial status processed securely via Google Play In-App Billing (23labs does not store or process raw payment card details).</li>
+                <li><strong className="text-zinc-200">Payment Information:</strong> For in-app subscriptions processed via mobile wallets (EVC Plus, ZAAD, Sahal, M-Pesa, or WaafiPay), transactions are processed directly by licensed financial payment gateways. We store transaction IDs, timestamp, and subscription expiration status. We never collect or store your mobile money PIN.</li>
               </ul>
             </section>
 
@@ -207,7 +207,8 @@ export default function AqeelPolicyPage() {
                 We do not sell your personal data. We rely on trusted third-party service providers solely to operate Aqeel securely:
               </p>
               <div className="space-y-2 text-sm text-zinc-400">
-                <p><strong className="text-zinc-200">Google OAuth & Services:</strong> Used for secure user authentication and Google Play Billing.</p>
+                <p><strong className="text-zinc-200">Google OAuth & Services:</strong> Used for secure user authentication via OAuth 2.0.</p>
+                <p><strong className="text-zinc-200">WaafiPay & Mobile Payment Networks:</strong> Used securely to process mobile wallet subscription payments (EVC Plus, ZAAD, Sahal, M-Pesa).</p>
                 <p><strong className="text-zinc-200">Cloud Infrastructure:</strong> Secure cloud servers used for database hosting and progress synchronization.</p>
               </div>
             </section>
@@ -289,9 +290,9 @@ export default function AqeelPolicyPage() {
             </section>
 
             <section className="space-y-3">
-              <h3 className="text-lg font-semibold text-white">4. Subscriptions & Free Trials</h3>
+              <h3 className="text-lg font-semibold text-white">4. Subscriptions & Access</h3>
               <p className="text-zinc-300 text-sm leading-relaxed">
-                Aqeel may offer free trial periods and paid subscription plans via the Google Play Store. Subscriptions auto-renew unless cancelled at least 24 hours prior to the end of the current billing cycle through your Google Play account settings.
+                Aqeel offers fixed-duration access plans (1 Month, 3 Months, Yearly) accessible via integrated mobile payment gateways (EVC Plus, ZAAD, Sahal, M-Pesa, or WaafiPay). Plans provide full access for the selected duration without auto-renewal. Users can renew manually at any time.
               </p>
             </section>
 
