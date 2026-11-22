@@ -30,7 +30,7 @@ const apps = [
     description: 'A premium, clean spaced repetition app to memorize the Quran.',
     mockup: '/prev -images/aqeel-prev.png',
     logo: '/prev -images/aqeellogo.png',
-    url: 'https://aqeel.abdirahman.xyz',
+    url: 'https://play.google.com/store/apps/details?id=com.aqeel.app&hl=en',
   }
 ];
 

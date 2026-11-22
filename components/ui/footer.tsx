@@ -22,23 +22,43 @@ export function Footer() {
               Building apps for the Somali community, one product at a time.
             </p>
             <a
-              href="mailto:hello@23labs.co"
+              href="mailto:contact@23labs.site"
               className="inline-flex items-center gap-1.5 text-sm text-white/50 hover:text-white transition-colors duration-200"
             >
-              hello@23labs.co
+              contact@23labs.site
               <span className="text-xs">↗</span>
             </a>
           </div>
 
-          {/* Right: Apps column */}
-          <div className="flex flex-col gap-4">
-            <p className="text-xs font-semibold tracking-[0.18em] text-white/25 uppercase">Our Apps</p>
-            <a href="https://riyocut.co" target="_blank" rel="noopener noreferrer" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
-              Riyocut
-            </a>
-            <a href="https://aqeel.abdirahman.xyz" target="_blank" rel="noopener noreferrer" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
-              Aqeel
-            </a>
+          {/* Right: Apps, Client Work & Studio columns */}
+          <div className="flex flex-wrap gap-10 sm:gap-14">
+            <div className="flex flex-col gap-4">
+              <p className="text-xs font-semibold tracking-[0.18em] text-white/25 uppercase">Our Apps</p>
+              <a href="https://riyocut.co" target="_blank" rel="noopener noreferrer" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
+                Riyocut
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.aqeel.app&hl=en" target="_blank" rel="noopener noreferrer" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
+                Aqeel
+              </a>
+            </div>
+            <div className="flex flex-col gap-4">
+              <p className="text-xs font-semibold tracking-[0.18em] text-white/25 uppercase">Client Work</p>
+              <a href="https://www.afed.so/" target="_blank" rel="noopener noreferrer" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
+                AFED
+              </a>
+              <a href="https://www.kulmid.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
+                Kulmid
+              </a>
+            </div>
+            <div className="flex flex-col gap-4">
+              <p className="text-xs font-semibold tracking-[0.18em] text-white/25 uppercase">Studio</p>
+              <a href="/#portfolio" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
+                Portfolio
+              </a>
+              <a href="/team" className="text-sm text-white/45 hover:text-white transition-colors duration-200">
+                Team
+              </a>
+            </div>
           </div>
         </div>
 

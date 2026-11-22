@@ -171,7 +171,7 @@ export default function Hero15({
           className="max-w-8xl relative z-10 mx-auto flex min-h-12 w-full items-center justify-between px-8 py-3 sm:px-12 lg:px-24"
         >
           <a
-            href="#"
+            href="/"
             className="group/brand inline-flex items-center transition-[opacity,transform] duration-200 ease-out hover:opacity-80 active:scale-[0.96]"
           >
             <Image src="/images/logo.png" alt="Logo" width={400} height={160} className="h-12 w-auto object-contain" />

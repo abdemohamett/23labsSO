@@ -1,5 +1,6 @@
 import Hero15 from "@/components/ui/hero-15";
 import { PortfolioSection } from "@/components/ui/portfolio-section";
+import { BuiltAppsSection } from "@/components/ui/built-apps-section";
 import { Footer } from "@/components/ui/footer";
 
 export default function Home() {
@@ -16,12 +17,14 @@ export default function Home() {
         secondaryCtaLabel="Our Apps"
         secondaryCtaHref="#portfolio"
         navLinks={[
-          { label: 'Portfolio', href: '#portfolio' },
+          { label: 'Portfolio', href: '/#portfolio' },
+          { label: 'Team', href: '/team' },
         ]}
         signupLabel=""
         trustedBrands={[]}
       />
       <PortfolioSection />
+      <BuiltAppsSection />
       <Footer />
     </main>
   );
